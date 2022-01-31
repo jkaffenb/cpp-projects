@@ -1,0 +1,155 @@
+Compiling sequence.cc
+====== Testing Begin ======
+------ 1. atest0 ------
+compare_program -i ./studharness ./authority < test0
+Here is the input used for this test ************ 
+add2 5 0
+clear
+************************************************* 
+Test passed
+
+PASSED
+
+------ 2. atest0a ------
+compare_program -i ./studharness ./authority < test0a
+Here is the input used for this test ************ 
+add2 1 0
+add2 2 0
+add2 3 0
+add2 4 0
+add2 5 0
+add2 100 2
+************************************************* 
+Test passed
+
+PASSED
+
+------ 3. atest1 ------
+compare_program -i ./studharness ./authority < test1
+Here is the input used for this test ************ 
+add 6
+add 99
+add -2
+************************************************* 
+Test passed
+
+PASSED
+
+------ 4. atest2 ------
+compare_program -i ./studharness ./authority < test2
+Here is the input used for this test ************ 
+add 6
+add 99
+add -2
+remove 1************************************************* 
+Test passed
+
+PASSED
+
+------ 5. atest2a ------
+compare_program -i ./studharness ./authority < test2a
+Here is the input used for this test ************ 
+add 2
+add 8
+add 9
+add 10
+add -1
+add 4
+remove 0
+
+************************************************* 
+Test passed
+
+PASSED
+
+------ 6. atest2b ------
+compare_program -i ./studharness ./authority < test2b
+Here is the input used for this test ************ 
+add 2
+add 8
+add 9
+add 10
+add -1
+add 4
+remove 5
+
+
+************************************************* 
+Test passed
+
+PASSED
+
+------ 7. atest3 ------
+compare_program -i ./studharness ./authority < test3
+Here is the input used for this test ************ 
+add 6
+add 99
+add -2
+add 11
+replace 5 2
+************************************************* 
+Test passed
+
+PASSED
+
+------ 8. atest4 ------
+compare_program -i ./studharness ./authority < test4
+Here is the input used for this test ************ 
+add 6
+add 99
+add -2
+add 11
+replace 5 0
+************************************************* 
+Test passed
+
+PASSED
+
+------ 9. atest5 ------
+compare_program -i ./studharness ./authority < test5
+Here is the input used for this test ************ 
+add 4
+add 4
+add 4
+add 4
+getLongestRun
+************************************************* 
+Test passed
+
+PASSED
+
+------ 10. atest6 ------
+compare_program -i ./studharness ./authority < test6
+Here is the input used for this test ************ 
+add 4
+add 5
+add 4
+add 5
+getLongestRun
+************************************************* 
+Test passed
+
+PASSED
+
+------ 11. atest7 ------
+compare_program -i ./studharness ./authority < test7
+Here is the input used for this test ************ 
+add 0
+add 4
+add 4
+add 8
+add 5
+add 5
+add 5
+add 0
+add 2
+add 2
+add 2
+getLongestRun
+************************************************* 
+Test passed
+
+PASSED
+
+====== Testing End ======
+Passed 11 out of 11
