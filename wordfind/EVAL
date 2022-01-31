@@ -1,0 +1,120 @@
+Compiling your program
+g++ -c wordfind.cc
+g++ -o wordfind wordfind.o -lwg
+
+====== Testing Begin ======
+in1...the sample input (meow)
+Here is the input used for this test ************ 
+10
+jsdpovkrjs
+dfmabebdjd
+ncettoswsf
+cjolaisjew
+dklqdjglou
+dlwfksmefk
+djuwlfmasj
+ajmcolelaj
+vjfklwsfai
+dkvnbueoqp
+meow
+************************************************* 
+Test passed
+
+in2...word not found
+Here is the input used for this test ************ 
+10
+jsdpovkrjs
+dfmabebdjd
+ncettoswsf
+cjolaisjew
+dklqdjglou
+dlwfksmefk
+djuwlfmasj
+ajmcolelaj
+vjfklwsfai
+dkvnbueoqp
+robbers
+************************************************* 
+Test passed
+
+in3...one letter word top left
+Here is the input used for this test ************ 
+10
+jsdpovkrws
+dfmabebdwd
+ncettoswsf
+cwolaiswew
+dklqdwglou
+dlwfksmefk
+dwuwlfmasw
+awmcolelaw
+vwfklwsfai
+dkvnbueoqp
+j
+************************************************* 
+Test passed
+
+in4...partial word fake-out
+Here is the input used for this test ************ 
+10
+jnettlerjs
+dfmabebdjd
+ncettosnsf
+cjolaiejew
+dklqdtglou
+dlwftsmefk
+djullfmasj
+ajecolelaj
+vsfklwsfai
+dkvnbueoqp
+nettles
+************************************************* 
+Test passed
+
+in5...edge find
+Here is the input used for this test ************ 
+10
+jnettlerjs
+dfmabebdjd
+ncettosnsf
+cjolainjew
+dklqdeglou
+dlwftsmefk
+djutlfmasj
+ajlcolelaj
+vefklwsfai
+skvnbueoqp
+nettles
+************************************************* 
+Test passed
+
+in6...edge not find
+Here is the input used for this test ************ 
+10
+jnettlerjl
+dfmabebdtd
+ncettostsf
+cjolaiejew
+dklqdnglou
+dlwfesmefk
+djutlfmasj
+ajtcolelaj
+vlfklwsfai
+ekvnbueoqp
+nettles
+************************************************* 
+Test passed
+
+in7...letter reuse
+Here is the input used for this test ************ 
+3
+zzz
+zaz
+zzz
+aaaa
+************************************************* 
+Test passed
+
+Passed 7 out of 7 test cases for wordfind
+====== Testing End ======
+Passed  out of 

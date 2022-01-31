@@ -1,0 +1,47 @@
+#include <wordgrid.h>
+
+//-function: bool find(string word, wordgrid & grid)------------------------
+// PRE: word consists of lowercase letters
+// POST: If word is found in grid, starting anywhere 
+//       and in any of the 8 directions, it is converted
+//       to uppercase in the grid, and true is returned.
+//       otherwise, grid is unchanged, and false is returned.
+bool find(string word, wordgrid & grid)
+{
+  // you do it:  Delete these lines and write all necessary
+  // code.  You might consider helper functions as well.
+  word = word;
+  grid = grid;
+  return false;
+}
+
+//------------------------------------------------------------------------
+int main()
+{
+  size_t dim = 0;  // size of the word grid
+  string word = ""; // word to search for
+  bool found = false;  // whether the word is found in the grid.
+  string one_row = ""; // dim characters (one row) read from stdin
+  string all_rows = ""; // dim x dim characters
+
+  // SETUP
+  std::cin >> dim;  // read the dimension 
+  // read each row and append to the string of all rows
+  for (size_t r = 0; r < dim ; r = r + 1) {
+    std::cin >> one_row;
+    all_rows += one_row;
+  }
+  wordgrid grid(dim, all_rows);  // create the grid from that data
+  std::cin >> word; // read the word
+
+  // SEARCH  (you do)
+  found = find(word, grid);
+  
+  // REPORT
+  if (found) {
+    std::cout << "FOUND!" << std::endl;
+    std::cout << grid;
+  }    
+  else
+    std::cout << "NOT FOUND!" << std::endl;
+}
