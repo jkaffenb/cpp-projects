@@ -1,0 +1,177 @@
+Compiling your program
+make: `sudoku' is up to date.
+
+====== Testing Begin ======
+------ 1. ain-solved ------
+Solved board
+Here is the input used for this test ************ 
+362815974
+195437862
+487962531
+723594618
+918376425
+654281793
+876153249
+541729386
+239648157
+************************************************* 
+Test passed
+
+PASSED
+
+------ 2. ain-trivial ------
+Trivial board: one numeral missing in nine places
+Here is the input used for this test ************ 
+5346789_2
+672_95348
+_98342567
+85976_423
+42685379_
+7_3924856
+96_537284
+2874_9635
+345286_79
+************************************************* 
+Test passed
+
+PASSED
+
+------ 3. ain-sample ------
+the sample input
+Here is the input used for this test ************ 
+53__7____
+6__195___
+_98____6_
+8___6___3
+4__8_3__1
+7___2___6
+_6____28_
+___419__5
+____8__79
+************************************************* 
+Test passed
+
+PASSED
+
+------ 4. ain-easy ------
+An easy puzzle (#24, Kappa Puzzles, Nov. 2007) 
+Here is the input used for this test ************ 
+4_13___7_
+6__2_7__1
+37894_5_6
+____3__6_
+1_______7
+_4__1____
+7_4_29615
+8__4_6__3
+_5___38_2
+
+************************************************* 
+Test passed
+
+PASSED
+
+------ 5. ain-hard ------
+A hard puzzle
+Here is the input used for this test ************ 
+53_4_____
+69_83____
+_18______
+169_8___7
+_2__7__6_
+7___5_189
+______95_
+____48_31
+_____6_78
+************************************************* 
+Test passed
+
+PASSED
+
+------ 6. ain-hardestq ------
+A harder puzzle
+Here is the input used for this test ************ 
+_________
+_1_62__9_
+__2__931_
+__4__6_8_
+__87_21__
+_3_8__5__
+_691__4__
+_8__73_5_
+_________************************************************* 
+Test passed
+
+PASSED
+
+------ 7. ain-hardestp ------
+A even harder puzzle
+Here is the input used for this test ************ 
+1____7_9_
+_3__2___8
+__96__5__
+__53__9__
+_1__8___2
+6____4___
+3______1_
+_4______7
+__7___3__
+************************************************* 
+Test passed
+
+PASSED
+
+------ 8. ain-aiescargot ------
+USA Today claimed this was the hardest puzzle ever
+Here is the input used for this test ************ 
+1____7_9_
+_3__2___8
+__96__5__
+__53__9__
+_1__8___2
+6____4___
+3______1_
+_4______7
+__7___3__
+************************************************* 
+Test passed
+
+PASSED
+
+------ 9. ain-reallyhardest ------
+But maybe not.
+Here is the input used for this test ************ 
+85___24__
+72______9
+__4______
+___1_7__2
+3_5___9__
+_4_______
+____8__7_
+_17______
+____36_4_
+************************************************* 
+Test passed
+
+PASSED
+
+------ 10. ain-inkala ------
+And one more from 
+http://www.telegraph.co.uk/news/science/science-news/9359579/Worlds-hardest-sudoku-can-you-crack-it.html
+Here is the input used for this test ************ 
+8________
+__36_____
+_7__9_2__
+_5___7___
+____457__
+___1___3_
+__1____68
+__85___1_
+_9____4__
+************************************************* 
+Test passed
+
+PASSED
+
+====== Testing End ======
+Passed 10 out of 10
