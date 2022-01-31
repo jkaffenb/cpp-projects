@@ -1,0 +1,19 @@
+Compiling your program
+g++ -o compress compress.cc
+ln -s compress uncompress
+
+Did your program compile compress?...................YES
+Did your program compile uncompress?.................YES
+Does compress produce output?........................YES
+Is the output smaller than the original?             
+               Original.....95421
+               Compressed...56922
+                                .....................YES
+Can the output be uncompressed with my program?......YES
+Can the output be uncompressed with your program?....YES
+Can you uncompress something that I compressed?......YES
+Can you compress twice?..............................YES
+Can that be uncompressed?............................YES
+...A second time?....................................YES
+And is that now the same as the original?............YES
+====== Testing End ======
